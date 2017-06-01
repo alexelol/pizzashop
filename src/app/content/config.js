@@ -1,12 +1,12 @@
 import { App } from '../module';
-import {ilApp} from './app';
+import {ilContent} from './content';
 
 config.$inject = ["$stateProvider"];
 export function config(stateProvider) {
     stateProvider
     .state('app',{
         url:'/',
-        component: 'ilApp'
+        component: 'ilContent'
     });
 }
 

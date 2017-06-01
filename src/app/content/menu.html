@@ -1,0 +1,28 @@
+<md-sidenav
+        md-component-id="sidenav"
+        class="md-sidenav-left"
+        md-component-id="left"
+        md-is-locked-open="$mdMedia('gt-md')"
+        md-whiteframe="4">
+
+      <md-content layout="column" layout-padding>
+        <md-button class="md-primary" ui-sref="pizzalist" ng-click="$ctrl.closeSideNav()">
+          show pizzas
+        </md-button>
+        <md-button class="md-primary" ui-sref="addpizza" ng-click="$ctrl.closeSideNav()">
+          Add pizza
+        </md-button>
+
+       <!---
+        <div style="text-align:center;">
+        <form action="/logout/" method="post">
+          <md-button class="md-primary" type="submit" ng-click="$ctrl.closeSideNav()">
+            Logout
+          </md-button>
+        </form>
+        </div>
+       -->
+
+      </md-content>
+
+    </md-sidenav>
