@@ -1,8 +1,0 @@
-import { App } from '../module';
-import {} from './appctrl';
-import html from './app.html';
-export const ilApp = {
-  template: html,
-  controller: 'appCtrl'
-}
-App.component('ilApp', ilApp);
